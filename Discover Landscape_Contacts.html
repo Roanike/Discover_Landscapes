@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Discover Landscape</title>
+  <link rel="stylesheet" href="discoverLandscape.css" type="text/css">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE-Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <div class="body">
+    <a href="Discover Landscape_Main.html"><img class="logo" src="..." /></a>
+    <section class="mainContent">
+      <ul>
+        <a href="Discover Landscape_Main.html">Home</a>
+        <a href="Discover Landscape_About.html">About</a>
+        <a id="gallery" href="Discover Landscape_Gallery.html">Gallery</a>
+        <a href="Discover Landscape_Contacts.html">Contacts</a>
+      </ul>
+      <div class="Content">
+        <div class="pageIntro">
+          <p class="title">contacts</p>
+          <div class="lineSeparator"></div>
+          <p class="sub">don't hesitate to ask us</p>
+        </div>
+
+        <form action="post.php">
+          <table>
+            <tr>
+              <h4>Please fill in accordingly</h4>
+            </tr>
+            <tr>
+              <td class="formLabel">
+                <p>First Name</p>
+              </td>
+              <td class="formInput">
+                <input type="textbox" placeholder="First Name">
+              </td>
+            </tr>
+            <tr>
+              <td class="formLabel">
+                <p>Last Name</p>
+              </td>
+              <td class="formInput">
+                <input type="textbox" placeholder="Last Name">
+              </td>
+            </tr>
+            <tr>
+              <td class="formLabel">
+                <p>Email</p>
+              </td>
+              <td class="formInput">
+                <input type="email" name="email" placeholder="Email">
+              </td>
+            </tr>
+            <tr>
+              <td class="formLabel">
+                <p>Sex</p>
+              </td>
+              <td class="formInput">
+                <label><input type="radio" name ="sex" value="Male" checked>Male</label>
+                <label><input type="radio" name="sex" value="Female">Female</label>
+              </td>
+            <tr>
+              <td class="formLabel">
+                <p>Inquiry Type</p>
+              </td>
+              <td class="formInput">
+                <input type="textbox" placeholder="Inquiry Title">
+              </td>
+            </tr>
+            <tr>
+              <td class="formLabel">
+                <p>Inquiry Title</p>
+              </td>
+              <td class="formInput">
+                <select name="inquiryCategories">
+                  <option selected disabled>Choose here</option>
+                  <option value="category1">category1</option>
+                  <option value="category2">category2</option>
+                  <option value="category3">category3</option>
+                  <option value="category4">category4</option>
+                  <option value="category5">category5</option>
+                  <option value="category6">category6</option>
+                  <option value="category7">category7</option>
+                  <option value="category8">category8</option>
+                  <option value="category9">category9</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td class="formLabel">
+                <p>Inquiry Details</p>
+              </td>
+              <td  class="formInput" >
+                <textarea id="inquiryBox" wrap="soft" placeholder="Inquiry Details"></textarea>
+              </td>
+            </tr>
+          </table>
+          <br /><br />
+          <input type="submit" id="submit" value="Send">
+        </form>
+
+      </div>
+    </section>
+    <footer>
+      <p>&copy 2017</p>
+    </footer>
+  </div>
+</body>
+</html>
